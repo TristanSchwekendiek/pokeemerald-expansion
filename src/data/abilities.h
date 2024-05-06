@@ -1385,6 +1385,14 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
         .aiRating = 8,
     },
 
+    [ABILITY_DRACOFURY] =
+    {
+        .name = _("Dracofury"),
+        .description = COMPOUND_STRING("Normal moves become Dragon."),
+        .aiRating = 8,
+    },
+
+
     [ABILITY_GOOEY] =
     {
         .name = _("Gooey"),
